@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.rosy.main.mapper.MeetingCheckinMapper">
+
+    <select id="getRoomStatistics" resultType="com.rosy.main.domain.vo.MeetingRoomStatisticsVO">
+        SELECT
+            mr.id as roomId,
+            mr.name as roomName,
+            COUNT(DISTINCT mb.id) as totalBookings,
+            COUNT(DISTINCT CASE WHEN mb.status = 1 THEN mb.id END) as approvedBookings,
+            COUNT(DISTINCT CASE WHEN mb.status = 2 THEN mb.id END) as rejectedBookings,
+            COUNT(DISTINCT CASE WHEN mb.status = 3 THEN mb.id END) as cancelledBookings,
+            COUNT(DISTINCT mc.id) as totalCheckins,
+            CAST(COUNT(DISTINCT mc.id) AS DECIMAL(10,2)) / NULLIF(SUM(mb.attendees), 0) * 100 as utilizationRate,
+            AVG(mb.attendees) as averageAttendees
+        FROM meeting_room mr
+        LEFT JOIN meeting_booking mb ON mr.id = mb.room_id AND mb.is_deleted = 0
+            <if test="startTime != null">
+                AND mb.start_time &gt;= #{startTime}
+            </if>
+            <if test="endTime != null">
+                AND mb.end_time &lt;= #{endTime}
+            </if>
+        LEFT JOIN meeting_checkin mc ON mb.id = mc.booking_id AND mc.is_deleted = 0
+        WHERE mr.is_deleted = 0
+        GROUP BY mr.id, mr.name
+        ORDER BY totalBookings DESC
+    </select>
+
+</mapper>
