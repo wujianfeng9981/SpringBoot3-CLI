@@ -1,0 +1,66 @@
+2026-02-05 15:08:59.202 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-05 15:08:59.210 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-05 15:11:16.360 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-05 15:11:16.397 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 21.0.8 with PID 88779 (/Users/wujianfeng/SpringBoot3-CLI/web/target/classes started by wujianfeng in /Users/wujianfeng/SpringBoot3-CLI/web)
+2026-02-05 15:11:16.398 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-05 15:11:16.454 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-05 15:11:16.454 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-05 15:11:16.975 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/Users/wujianfeng/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-05 15:11:17.185 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-05 15:11:17.186 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-05 15:11:17.206 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2026-02-05 15:11:18.075 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-05 15:11:18.087 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 15:11:18.088 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-05 15:11:18.088 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-05 15:11:18.120 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-05 15:11:18.121 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1665 ms
+2026-02-05 15:11:18.201 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-05 15:11:18.212 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-05 15:11:55.190 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-05 15:11:55.245 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 21.0.8 with PID 89184 (/Users/wujianfeng/SpringBoot3-CLI/web/target/classes started by wujianfeng in /Users/wujianfeng/SpringBoot3-CLI/web)
+2026-02-05 15:11:55.246 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-05 15:11:55.291 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-05 15:11:55.291 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-05 15:11:55.884 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/Users/wujianfeng/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-05 15:11:56.083 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-05 15:11:56.085 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-05 15:11:56.106 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2026-02-05 15:11:56.940 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-05 15:11:56.951 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 15:11:56.952 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-05 15:11:56.952 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-05 15:11:57.014 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-05 15:11:57.014 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1722 ms
+2026-02-05 15:11:58.631 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-02-05 15:12:01.298 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-05 15:12:01.358 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 15:12:01.364 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-05 15:12:01.373 [restartedMain] INFO  com.rosy.WebApplication - Started WebApplication in 6.402 seconds (process running for 6.825)
+2026-02-05 15:12:23.465 [http-nio-0.0.0.0-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-05 15:12:23.465 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-05 15:12:23.466 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-02-05 15:12:24.198 [http-nio-0.0.0.0-8080-exec-10] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 390 ms
+2026-02-05 15:14:40.688 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2026-02-05 15:14:40.694 [Thread-5] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-05 15:14:40.696 [tomcat-shutdown] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 15:14:40.706 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-05 15:14:40.706 [Thread-5] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 15:14:40.797 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 21.0.8 with PID 89184 (/Users/wujianfeng/SpringBoot3-CLI/web/target/classes started by wujianfeng in /Users/wujianfeng/SpringBoot3-CLI/web)
+2026-02-05 15:14:40.797 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-05 15:14:40.933 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/Users/wujianfeng/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-05 15:14:40.980 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-05 15:14:40.980 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-05 15:14:40.985 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2026-02-05 15:14:41.349 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-05 15:14:41.350 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 15:14:41.351 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-05 15:14:41.351 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-05 15:14:41.366 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-05 15:14:41.367 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 569 ms
+2026-02-05 15:14:41.412 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-05 15:14:41.416 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
