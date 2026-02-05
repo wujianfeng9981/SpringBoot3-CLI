@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会议室预约管理系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            color: white;
+            padding: 40px 0;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .api-section {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .api-section h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-left: 4px solid #667eea;
+            padding-left: 12px;
+        }
+        .api-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .method {
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            min-width: 80px;
+            text-align: center;
+        }
+        .method.get { background: #28a745; color: white; }
+        .method.post { background: #007bff; color: white; }
+        .method.delete { background: #dc3545; color: white; }
+        .path {
+            font-family: 'Monaco', 'Menlo', monospace;
+            color: #333;
+            font-size: 0.95rem;
+        }
+        .description {
+            color: #666;
+            margin-left: auto;
+            font-size: 0.9rem;
+        }
+        .status {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+        .status span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: #28a745;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>会议室预约管理系统</h1>
+            <p>Spring Boot 3.4.x + MyBatis Plus + MySQL + Redis</p>
+        </div>
+
+        <div class="api-section">
+            <h2>会议室管理</h2>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-room/add</span>
+                <span class="description">添加会议室</span>
+            </div>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-room/update</span>
+                <span class="description">更新会议室</span>
+            </div>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-room/delete</span>
+                <span class="description">删除会议室</span>
+            </div>
+            <div class="api-item">
+                <span class="method get">GET</span>
+                <span class="path">/api/meeting-room/get</span>
+                <span class="description">获取会议室详情</span>
+            </div>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-room/list/page</span>
+                <span class="description">会议室分页列表</span>
+            </div>
+        </div>
+
+        <div class="api-section">
+            <h2>预约管理</h2>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-booking/add</span>
+                <span class="description">创建预约（自动校验冲突）</span>
+            </div>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-booking/update</span>
+                <span class="description">更新预约</span>
+            </div>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-booking/cancel</span>
+                <span class="description">取消预约</span>
+            </div>
+            <div class="api-item">
+                <span class="method get">GET</span>
+                <span class="path">/api/meeting-booking/get</span>
+                <span class="description">获取预约详情</span>
+            </div>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-booking/list/page</span>
+                <span class="description">预约列表分页</span>
+            </div>
+        </div>
+
+        <div class="api-section">
+            <h2>审批流程</h2>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/booking-approval/approve</span>
+                <span class="description">审批预约（通过/驳回）</span>
+            </div>
+            <div class="api-item">
+                <span class="method get">GET</span>
+                <span class="path">/api/booking-approval/get</span>
+                <span class="description">获取审批详情</span>
+            </div>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/booking-approval/list/page</span>
+                <span class="description">审批列表分页</span>
+            </div>
+        </div>
+
+        <div class="api-section">
+            <h2>会议签到</h2>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-checkin/add</span>
+                <span class="description">签到</span>
+            </div>
+            <div class="api-item">
+                <span class="method get">GET</span>
+                <span class="path">/api/meeting-checkin/get</span>
+                <span class="description">获取签到详情</span>
+            </div>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-checkin/list/page</span>
+                <span class="description">签到列表分页</span>
+            </div>
+            <div class="api-item">
+                <span class="method get">GET</span>
+                <span class="path">/api/meeting-checkin/statistics</span>
+                <span class="description">会议室使用统计</span>
+            </div>
+        </div>
+
+        <div class="api-section">
+            <h2>通知系统</h2>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-notification/read</span>
+                <span class="description">标记通知为已读</span>
+            </div>
+            <div class="api-item">
+                <span class="method get">GET</span>
+                <span class="path">/api/meeting-notification/get</span>
+                <span class="description">获取通知详情</span>
+            </div>
+            <div class="api-item">
+                <span class="method post">POST</span>
+                <span class="path">/api/meeting-notification/list/page</span>
+                <span class="description">通知列表分页</span>
+            </div>
+        </div>
+
+        <div class="status">
+            <span></span> 服务运行正常 - 端口: 8080
+        </div>
+    </div>
+</body>
+</html>
