@@ -1,0 +1,115 @@
+2026-02-05 13:17:45.709 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 21.0.8 with PID 59221 (/Users/wujianfeng/SpringBoot3-CLI/web/target/classes started by wujianfeng in /Users/wujianfeng/SpringBoot3-CLI/web)
+2026-02-05 13:17:45.709 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-05 13:17:45.796 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/Users/wujianfeng/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-05 13:17:45.832 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-05 13:17:45.832 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-05 13:17:45.836 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2026-02-05 13:17:46.179 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-05 13:17:46.180 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 13:17:46.180 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-05 13:17:46.180 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-05 13:17:46.189 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-05 13:17:46.189 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 479 ms
+2026-02-05 13:17:47.217 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-02-05 13:17:47.317 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-02-05 13:17:49.120 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-05 13:17:49.138 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 13:17:49.141 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-05 13:17:49.145 [restartedMain] INFO  com.rosy.WebApplication - Started WebApplication in 3.458 seconds (process running for 2941.431)
+2026-02-05 13:17:49.147 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-02-05 13:35:38.479 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-05 13:35:38.483 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-02-05 14:07:07.286 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-05 14:07:07.321 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 21.0.8 with PID 71074 (/Users/wujianfeng/SpringBoot3-CLI/web/target/classes started by wujianfeng in /Users/wujianfeng/SpringBoot3-CLI/web)
+2026-02-05 14:07:07.322 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-05 14:07:07.351 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-05 14:07:07.351 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-05 14:07:07.733 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/Users/wujianfeng/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-05 14:07:07.934 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-05 14:07:07.936 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-05 14:07:07.955 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-02-05 14:07:08.756 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-05 14:07:08.766 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 14:07:08.767 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-05 14:07:08.767 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-05 14:07:08.795 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-05 14:07:08.795 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1443 ms
+2026-02-05 14:07:08.861 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-05 14:07:08.870 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-05 14:08:18.784 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-05 14:08:18.825 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 21.0.8 with PID 71671 (/Users/wujianfeng/SpringBoot3-CLI/web/target/classes started by wujianfeng in /Users/wujianfeng/SpringBoot3-CLI/web)
+2026-02-05 14:08:18.825 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-05 14:08:18.858 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-05 14:08:18.858 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-05 14:08:19.261 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/Users/wujianfeng/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-05 14:08:19.430 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-05 14:08:19.432 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-05 14:08:19.451 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-02-05 14:08:20.213 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-05 14:08:20.221 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 14:08:20.222 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-05 14:08:20.222 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-05 14:08:20.248 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-05 14:08:20.249 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1391 ms
+2026-02-05 14:08:20.646 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-05 14:08:20.653 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-05 14:09:05.365 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-05 14:09:05.404 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 21.0.8 with PID 72068 (/Users/wujianfeng/SpringBoot3-CLI/web/target/classes started by wujianfeng in /Users/wujianfeng/SpringBoot3-CLI/web)
+2026-02-05 14:09:05.404 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-05 14:09:05.441 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-05 14:09:05.442 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-05 14:09:05.926 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/Users/wujianfeng/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-05 14:09:06.113 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-05 14:09:06.114 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-05 14:09:06.134 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-02-05 14:09:07.014 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-05 14:09:07.024 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 14:09:07.025 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-05 14:09:07.025 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-05 14:09:07.056 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-05 14:09:07.057 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1615 ms
+2026-02-05 14:09:07.543 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-05 14:09:07.551 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-05 14:09:32.812 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-05 14:09:32.867 [main] INFO  com.rosy.WebApplication - Starting WebApplication using Java 21.0.8 with PID 72422 (/Users/wujianfeng/SpringBoot3-CLI/web/target/classes started by wujianfeng in /Users/wujianfeng/SpringBoot3-CLI/web)
+2026-02-05 14:09:32.867 [main] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-05 14:09:33.267 [main] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/Users/wujianfeng/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-05 14:09:33.422 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-05 14:09:33.424 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-05 14:09:33.444 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2026-02-05 14:09:34.196 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-05 14:09:34.205 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 14:09:34.207 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-05 14:09:34.207 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-05 14:09:34.245 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-05 14:09:34.245 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1334 ms
+2026-02-05 14:09:34.309 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-05 14:09:34.318 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-05 14:10:00.413 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-05 14:10:00.448 [main] INFO  com.rosy.WebApplication - Starting WebApplication using Java 21.0.8 with PID 72772 (/Users/wujianfeng/SpringBoot3-CLI/web/target/classes started by wujianfeng in /Users/wujianfeng/SpringBoot3-CLI/web)
+2026-02-05 14:10:00.449 [main] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-05 14:10:00.823 [main] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/Users/wujianfeng/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-05 14:10:00.982 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-05 14:10:00.983 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-05 14:10:01.003 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2026-02-05 14:10:01.764 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-05 14:10:01.772 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 14:10:01.773 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-05 14:10:01.773 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-05 14:10:01.808 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-05 14:10:01.808 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1327 ms
+2026-02-05 14:10:03.372 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-02-05 14:10:06.065 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-05 14:10:06.085 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-05 14:10:06.094 [main] INFO  com.rosy.WebApplication - Started WebApplication in 5.851 seconds (process running for 6.178)
+2026-02-05 14:10:12.529 [http-nio-0.0.0.0-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-05 14:10:12.529 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-05 14:10:12.530 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
