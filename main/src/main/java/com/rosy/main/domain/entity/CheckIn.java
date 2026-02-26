@@ -7,86 +7,38 @@ import java.io.Serial;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
-/**
- * <p>
- * 物品表
- * </p>
- *
- * @author Rosy
- * @since 2025-01-19
- */
-@TableName("item")
-public class Item implements Serializable {
+@TableName("check_in")
+public class CheckIn implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 1L;
 
-    /**
-     * ID
-     */
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
-    /**
-     * 名称
-     */
-    private String name;
+    private Long bookingId;
 
-    /**
-     * 简介/内容
-     */
-    private String description;
+    private Long userId;
 
-    /**
-     * 类型
-     */
-    private Byte type;
+    private LocalDateTime checkInTime;
 
-    /**
-     * 类型
-     */
-    private Byte status;
-
-    /**
-     * 创建者ID，关联用户表
-     */
     @TableField(fill = FieldFill.INSERT)
     private Long creatorId;
 
-    /**
-     * 创建时间
-     */
     @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createTime;
 
-    /**
-     * 更新者ID，关联用户表
-     */
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Long updaterId;
 
-    /**
-     * 更新时间
-     */
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime updateTime;
 
-    /**
-     * 乐观锁版本号
-     */
     @Version
     private Byte version;
 
-    /**
-     * 是否删除：0-未删除，1-已删除
-     */
     @TableLogic
     private Byte isDeleted;
-
-    /**
-     * 排序字段，用于控制物品显示顺序
-     */
-    private Integer sortOrder;
 
     public Long getId() {
         return id;
@@ -96,36 +48,28 @@ public class Item implements Serializable {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public Long getBookingId() {
+        return bookingId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setBookingId(Long bookingId) {
+        this.bookingId = bookingId;
     }
 
-    public String getDescription() {
-        return description;
+    public Long getUserId() {
+        return userId;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 
-    public Byte getType() {
-        return type;
+    public LocalDateTime getCheckInTime() {
+        return checkInTime;
     }
 
-    public void setType(Byte type) {
-        this.type = type;
-    }
-
-    public Byte getStatus() {
-        return status;
-    }
-
-    public void setStatus(Byte status) {
-        this.status = status;
+    public void setCheckInTime(LocalDateTime checkInTime) {
+        this.checkInTime = checkInTime;
     }
 
     public Long getCreatorId() {
@@ -174,13 +118,5 @@ public class Item implements Serializable {
 
     public void setIsDeleted(Byte isDeleted) {
         this.isDeleted = isDeleted;
-    }
-
-    public Integer getSortOrder() {
-        return sortOrder;
-    }
-
-    public void setSortOrder(Integer sortOrder) {
-        this.sortOrder = sortOrder;
     }
 }
