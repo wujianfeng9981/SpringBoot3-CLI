@@ -10,7 +10,7 @@
     <springProperty scope="context" name="contextName" source="spring.application.name"/>
 
     <!-- 设置日志上下文名称 -->
-    <contextName>${contextName}</contextName>
+    <contextName>springboot3.4.x-init</contextName>
 
     <!-- 定义日志输出路径 -->
     <property name="log.path" value="logs"/>

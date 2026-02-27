@@ -16,35 +16,20 @@ spring:
     active: dev
 
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: ${MYSQL_URL:jdbc:mysql://localhost:3306/mysql?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai}
-    username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:root}
+    # MySQL配置（需要安装MySQL）
+    # driver-class-name: com.mysql.cj.jdbc.Driver
+    # url: ${MYSQL_URL:jdbc:mysql://localhost:3306/example?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai}
+    # username: ${MYSQL_USERNAME:root}
+    # password: ${MYSQL_PASSWORD:root}
+    
+    # H2内存数据库配置（测试用，无需安装）
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:example;DB_CLOSE_DELAY=-1;MODE=MySQL;DATABASE_TO_LOWER=TRUE;CASE_INSENSITIVE_IDENTIFIERS=TRUE;INIT=RUNSCRIPT FROM 'classpath:schema.sql'
+    username: sa
+    password:
 
 
-  # redis 配置
-  data:
-    redis:
-      # 地址
-      host: ${REDIS_HOST:localhost}
-      # 端口，默认为6379
-      port: ${REDIS_PORT:6379}
-      # 数据库索引
-      database: 0
-      # 密码
-      password: ${REDIS_PASSWORD:redis}
-      # 连接超时时间
-      timeout: 10s
-      lettuce:
-        pool:
-          # 连接池中的最小空闲连接
-          min-idle: 0
-          # 连接池中的最大空闲连接
-          max-idle: 8
-          # 连接池的最大数据库连接数
-          max-active: 8
-          # #连接池最大阻塞等待时间（使用负值表示没有限制）
-          max-wait: -1ms
+
 
 mybatis-plus:
   configuration:

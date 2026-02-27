@@ -1,4 +1,5 @@
-USE `example`;
+-- H2内存数据库初始化脚本
+-- 注意：H2不支持USE语句，直接创建表即可
 
 DROP TABLE IF EXISTS `item`;
 CREATE TABLE IF NOT EXISTS `item`
