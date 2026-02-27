@@ -5,6 +5,7 @@ import com.alibaba.fastjson2.JSONReader;
 import com.alibaba.fastjson2.JSONWriter;
 import com.alibaba.fastjson2.filter.Filter;
 import com.rosy.common.constant.CommonConstant;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.cache.annotation.CachingConfigurer;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
@@ -19,8 +20,16 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * Redis配置类
+ * 当RedisConnectionFactory存在时自动加载（即Redis连接可用时）
+ * 
+ * @author Rosy
+ * @since 2025-01-19
+ */
 @Configuration
 @EnableCaching
+@ConditionalOnBean(RedisConnectionFactory.class)
 public class RedisConfig implements CachingConfigurer {
     @Bean
     public RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory connectionFactory) {

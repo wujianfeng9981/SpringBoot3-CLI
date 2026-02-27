@@ -1,0 +1,133 @@
+2026-02-27 12:04:07.374 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-27 12:04:07.448 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 17.0.18 with PID 79 (/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes started by wangsen in /home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web)
+2026-02-27 12:04:07.449 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-27 12:04:07.529 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-27 12:04:07.530 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-27 12:04:08.322 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-27 12:04:10.037 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-27 12:04:10.057 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-27 12:04:10.060 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-27 12:04:10.061 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-27 12:04:10.133 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-27 12:04:10.134 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2603 ms
+2026-02-27 12:04:10.284 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-27 12:04:10.478 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:meeting_room_db user=SA
+2026-02-27 12:04:10.480 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-27 12:04:10.499 [restartedMain] INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:meeting_room_db'
+2026-02-27 12:04:11.051 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-27 12:04:11.055 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-27 12:04:11.060 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-27 12:04:11.082 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-27 12:06:42.270 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-27 12:06:42.346 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 17.0.18 with PID 186 (/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes started by wangsen in /home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web)
+2026-02-27 12:06:42.347 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-27 12:06:42.430 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-27 12:06:42.431 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-27 12:06:43.251 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-27 12:06:44.938 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-27 12:06:44.953 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-27 12:06:44.956 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-27 12:06:44.957 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-27 12:06:45.013 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-27 12:06:45.013 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2581 ms
+2026-02-27 12:06:45.142 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-27 12:06:45.359 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:meeting_room_db user=SA
+2026-02-27 12:06:45.362 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-27 12:06:45.376 [restartedMain] INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:meeting_room_db'
+2026-02-27 12:06:46.625 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-27 12:06:46.627 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-27 12:06:46.629 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-02-27 12:06:46.648 [restartedMain] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-02-27 12:08:16.536 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-27 12:08:16.636 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 17.0.18 with PID 184 (/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes started by wangsen in /home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web)
+2026-02-27 12:08:16.637 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-27 12:08:16.741 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-27 12:08:16.742 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-27 12:08:17.545 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-27 12:08:19.039 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-27 12:08:19.054 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-27 12:08:19.056 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-27 12:08:19.056 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-27 12:08:19.116 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-27 12:08:19.117 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2375 ms
+2026-02-27 12:08:19.263 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-27 12:08:19.474 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:meeting_room_db user=SA
+2026-02-27 12:08:19.475 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-27 12:08:19.487 [restartedMain] INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:meeting_room_db'
+2026-02-27 12:08:21.395 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-02-27 12:08:22.424 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-27 12:08:22.615 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-27 12:08:22.630 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 12:08:22.649 [restartedMain] INFO  com.rosy.WebApplication - Started WebApplication in 6.487 seconds (process running for 9.766)
+2026-02-27 12:09:52.528 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 12:09:52.727 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 12:37:46.886 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-27 12:37:46.993 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 17.0.18 with PID 190 (/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes started by wangsen in /home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web)
+2026-02-27 12:37:46.996 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-27 12:37:47.105 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-27 12:37:47.105 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-27 12:37:48.490 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-27 12:37:51.485 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-27 12:37:51.522 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-27 12:37:51.542 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-27 12:37:51.545 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-27 12:37:51.723 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-27 12:37:51.739 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4633 ms
+2026-02-27 12:37:49.780 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-27 12:37:50.637 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:meeting_room_db user=SA
+2026-02-27 12:37:50.642 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-27 12:37:50.674 [restartedMain] INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:meeting_room_db'
+2026-02-27 12:37:53.116 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-02-27 12:37:57.878 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-27 12:37:58.092 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-27 12:37:58.105 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 12:37:58.127 [restartedMain] INFO  com.rosy.WebApplication - Started WebApplication in 11.78 seconds (process running for 15.399)
+2026-02-27 12:39:50.087 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 12:39:50.296 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 12:44:36.598 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 12:44:36.602 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 12:49:36.435 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 12:49:36.439 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 12:54:35.275 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 12:54:35.278 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 12:59:33.970 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 12:59:33.972 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 14:01:52.567 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-02-27 14:01:52.666 [restartedMain] INFO  com.rosy.WebApplication - Starting WebApplication using Java 17.0.18 with PID 184 (/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes started by wangsen in /home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web)
+2026-02-27 14:01:52.667 [restartedMain] INFO  com.rosy.WebApplication - The following 1 profile is active: "dev"
+2026-02-27 14:01:52.748 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-27 14:01:52.748 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-27 14:01:53.516 [restartedMain] INFO  o.s.c.i.s.PathMatchingResourcePatternResolver - Skipping search for files matching pattern [**/*.class]: directory [/home/wangsen/programe/EvaluationLLM/GSB0225/GLM5/SpringBoot3-CLI/web/target/classes/com/rosy/framework/config] does not exist
+2026-02-27 14:01:54.826 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-02-27 14:01:54.839 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-27 14:01:54.842 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-27 14:01:54.843 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-02-27 14:01:54.904 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-27 14:01:54.905 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2156 ms
+2026-02-27 14:01:55.054 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-27 14:01:55.218 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:meeting_room_db user=SA
+2026-02-27 14:01:55.220 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-27 14:01:55.229 [restartedMain] INFO  o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:meeting_room_db'
+2026-02-27 14:01:56.725 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-02-27 14:01:59.938 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-02-27 14:02:00.263 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2026-02-27 14:02:00.279 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-02-27 14:02:00.308 [restartedMain] INFO  com.rosy.WebApplication - Started WebApplication in 8.053 seconds (process running for 8.646)
+2026-02-27 14:02:12.122 [http-nio-0.0.0.0-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-27 14:02:12.122 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-27 14:02:12.125 [http-nio-0.0.0.0-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-02-27 14:04:49.933 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 14:04:50.138 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 14:09:35.760 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 14:09:35.774 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 14:14:35.155 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 14:14:35.162 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 14:19:36.455 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 14:19:36.460 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒
+2026-02-27 14:20:19.108 [http-nio-0.0.0.0-8080-exec-2] INFO  org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 824 ms
+2026-02-27 14:24:34.014 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 开始执行会议提醒任务...
+2026-02-27 14:24:34.016 [scheduling-1] INFO  com.rosy.framework.task.MeetingReminderTask - 会议提醒任务执行完成，共发送0条提醒

@@ -1,6 +1,7 @@
 package com.rosy.common.utils;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.data.redis.core.BoundSetOperations;
 import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -10,7 +11,16 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Redis缓存工具类
+ * 提供Redis缓存的常用操作方法
+ * 当RedisConnectionFactory存在时自动加载
+ * 
+ * @author Rosy
+ * @since 2025-01-19
+ */
 @Component
+@ConditionalOnBean(RedisTemplate.class)
 public class RedisCache {
     @Autowired
     public RedisTemplate redisTemplate;
